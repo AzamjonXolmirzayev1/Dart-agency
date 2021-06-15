@@ -1,0 +1,1197 @@
+*{
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.wrapper{
+    width: 100%;
+    height: 9300px;
+    background-color: white;
+    overflow: hidden;
+}
+.main1{
+    width: 100%;
+    height: 800px;
+    background-color: darkcyan; 
+    
+    
+    position: relative;
+    overflow: hidden;
+    background-image: url('/lvl2no_1/4-dars/Part.Agency/images/header-background.png');
+    /* backdrop-filter: blur(40px) saturate( 200%); */
+}
+.main1::before{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 800px;
+    background-color:  blue;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0.44;
+}
+.main1::after{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 110%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    left: -5%;
+    transform: rotate(-8deg);
+    overflow-x: hidden;
+}
+.nav{
+    width: 110%;
+    height: 100px;
+    background-color: none;
+    position: relative;
+}
+.nav h1{
+    padding: 20px;
+    padding-top: 50px;
+    color: white;
+    font-size: 25px;
+}
+.nav h1:hover{
+    cursor: pointer;
+}
+.nav ul{
+    display:flex;
+    position: absolute;
+    top: 50px;
+    right: 115px;
+}
+.nav ul li{
+    padding: 10px 15px;
+    color: white;
+}
+.nav ul li:hover{
+    cursor: pointer;
+}
+.main1in1{
+    width: 100%;
+    height: 700px;
+    background-color: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.main1in1 h1{
+    font-size: 50px;
+    letter-spacing: 8px;
+    padding: 30px 20px;
+    color: white;
+    padding-top: 200px;
+}
+.main1in1 p{
+    padding: 5px 10px;
+    color: white;
+}
+.main1in1 button{
+    width: 180px;
+    height: 50px;
+    /* border: none; */
+    border-radius: 30px;
+    position: absolute;
+    background-color: rgb(104, 104, 228);
+    border-color: white;
+    color:white;
+}
+.main1in1 .b1{
+    top: 400px;
+    left: 450px;
+}
+.main1in1 .b2{
+    top: 400px;
+    left: 650px;
+}
+.main1in1 button:hover{
+    background-color: white;
+    color: rgb(104, 104, 228);
+    border: none;
+}
+/* main1 ended */
+/* main2 started */
+.main2{
+    width: 100%;
+    height: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 80px;
+}
+.main2 h1{
+    font-size: 35px;
+    padding: 30px;
+    opacity: 0.8;
+    color: black;
+} 
+.main2 p{
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.9;
+    color: black;
+}
+.main2in1,.main2in2,.main2in3,.main2in4,.main2in5,.main2in6{
+    width: 420px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    border: 0.1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main2in1:hover,.main2in2:hover,.main2in3:hover,.main2in4:hover,.main2in5:hover,.main2in6:hover{
+    box-shadow: 1px 10px 5px 5px grey;
+    border: none;
+    
+}
+.main2in1 h1,.main2in2 h1,.main2in3 h1,.main2in4 h1,.main2in5 h1,.main2in6 h1{
+    font-size: 30px;
+    padding-top: 30px;
+    color: black;
+}
+.main2in1 h1:hover,.main2in2 h1:hover,.main2in3 h1:hover,.main2in4 h1:hover,.main2in5 h1:hover,.main2in6 h1:hover{
+    color: blue;
+}
+.main2 .fab{
+    padding: 15px 20px ;
+    font-size: 40px;
+    border: 1px solid aquamarine;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.main2 .fab:hover{
+    font-size: 50px;
+}
+.main2in1 p,.main2in2 p,.main2in3 p,.main2in4 p,.main2in5 p,.main2in6 p{
+    color: black;
+    
+    opacity: 0.8;
+    font-size: 18px;
+}
+.main2in1{
+    top: 220px;
+    left: 20px;
+}
+.main2in2{
+    top: 220px;
+    left: 460px;
+}
+.main2in3{
+    top: 580px;
+    left: 900px;
+}
+.main2in4{
+    top: 580px;
+    left: 20px;
+}
+.main2in5{
+    top: 580px;
+    left: 460px;
+}
+.main2in6{
+    top: 220px;
+    left: 900px;
+}
+/* main2 ended */
+/* main3 started */
+.main3{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    background-color: darkcyan; 
+    position: relative;
+    overflow: hidden;
+    background-image: url('/lvl2no_1/4-dars/Part.Agency/images/contact-us-background.png');
+    /* backdrop-filter: blur(40px) saturate( 200%); */
+}
+.main3::before{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 800px;
+    background-color:  blue;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0.44;
+}
+.main3::after{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 110%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: -100px;
+    left: -5%;
+    transform: rotate(-5deg);
+    overflow-x: hidden;
+}
+.main3in1{
+    width: 100%;
+    height: 400px;
+    background-color: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.main3in1 h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    color: white;
+    padding-top: 200px;
+}
+.main3in1 p{
+    padding: 5px 10px;
+    color: white;
+}
+.main3in1 button{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(104, 104, 228);
+    border-color: white;
+    color:white;
+    margin-top: 30px;
+}
+.main3in1 button:hover{
+    background-color: white;
+    color: rgb(104, 104, 228);
+    border: none;
+}
+/* main3 ended */
+/* main4 started */
+.main4{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+}
+.main4 h1{
+    font-size: 30px;
+    padding: 30px;
+    opacity: 0.8;
+    color: rgb(39, 39, 117);
+} 
+.main4 p{
+    font-size: 20px;
+    padding: 5px 350px;
+    opacity: 0.9;
+    color: black;
+}
+.main4in1,.main4in2{
+    width: 40%;
+    height: 370px;
+    background-color: white;
+    position: absolute;
+}
+.main4in1{
+    top: 250px;
+    left: 80px;
+    background-image: url('/lvl2no_1/4-dars/Part.Agency/images/about-pic.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.main4in2{
+    width: 47%;
+    top: 250px;
+    right: 50px;
+}
+.main4in2 h1{
+    margin: 0;
+    padding: 0;
+    text-align:left;
+    color: black;
+    font-size: 25px;
+}
+.main4in2 h3{
+    margin: 0;
+    padding: 0;
+    text-align:left;
+    padding: 40px  0px;
+    opacity: 0.6;
+}
+.main4in2 p{
+    margin: 0;
+    padding: 0;
+    text-align:left;
+    font-size: 19px;
+    opacity: 0.6;
+}
+.main4in2 button{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(104, 104, 228);
+    border-color: white;
+    color:white;
+    margin-top: 40px;
+    margin-right: 500px;
+}
+.main4in2 button:hover{
+    cursor: pointer;
+}
+/* main4 ended */
+/* main5 started */
+.main5{
+    width: 100%;
+    height: 400px;
+    /* margin-top: 50px; */
+    background-color: darkcyan; 
+    position: relative;
+    overflow: hidden;
+    background-image: url('/lvl2no_1/4-dars/Part.Agency/images/letsGo-background.png');
+    /* backdrop-filter: blur(40px) saturate( 200%); */
+}
+.main5::before{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 800px;
+    background-color:  blue;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0.44;
+}
+.main5::after{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 110%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    left: -5%;
+    transform: rotate(-5deg);
+    overflow-x: hidden;
+}
+.main5in1{
+    width: 100%;
+    height: 400px;
+    background-color: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+.main5in1 h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    color: white;
+    padding-top: 80px;
+}
+.main5in1 p{
+    padding: 10px 400px;
+    color: white;
+    
+}
+.main5in1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(104, 104, 228);
+    border-color: white;
+    color:white;
+    margin-top: 30px;
+}
+.main5in1 button:hover{
+    background-color: white;
+    color: rgb(104, 104, 228);
+    border: none;
+}
+/* main5 ended */
+/* main6 started */
+.main6{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.main6 h1{
+    font-size: 35px;
+    padding: 30px;
+    opacity: 0.8;
+    color: black;
+} 
+.main6 p{
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.9;
+    color: black;
+}
+.main6in1,.main6in2,.main6in3,.main6in4,.main6in5,.main6in6{
+    width: 430px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    /* border: 0.1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+}
+.main6in1:hover,.main6in2:hover,.main6in3:hover,.main6in4:hover,.main6in5:hover,.main6in6:hover{
+    box-shadow: 1px 10px 5px 5px grey;
+    border: none;
+    
+}
+.main6in1 h1,.main6in2 h1,.main6in3 h1,.main6in4 h1,.main6in5 h1,.main6in6 h1{
+    font-size: 20px;
+    MARGIN: 0;
+    padding: 15px;
+    color: black;
+}
+.main6in1 h1:hover,.main6in2 h1:hover,.main6in3 h1:hover,.main6in4 h1:hover,.main6in5 h1:hover,.main6in6 h1:hover{
+    color: blue;
+}
+.main6in1 p,.main6in2 p,.main6in3 p,.main6in4 p,.main6in5 p,.main6in6 p{
+    color: black;
+    opacity: 0.8;
+    font-size: 15px;
+    padding-left: 15px;
+
+}
+.main6in1{
+    top: 220px;
+    left: 20px;
+    
+}
+.main6in2{
+    top: 220px;
+    left: 470px;
+}
+.main6in3{
+    top: 600px;
+    left: 920px;
+}
+.main6in4{
+    top: 600px;
+    left: 20px;
+}
+.main6in5{
+    top: 600px;
+    left: 470px;
+}
+.main6in6{
+    top: 220px;
+    left: 920px;
+}
+/* main6 ended */
+/* main7 started */
+.main7{
+    width: 100%;
+    height: 400px;
+    /* margin-top: 50px; */
+    background-color: darkcyan; 
+    position: relative;
+    overflow: hidden;
+    background-image: url('/lvl2no_1/4-dars/Part.Agency/images/handshake-background.png');
+}
+.main7::before{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 800px;
+    background-color:  blue;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0.44;
+}
+.main7::after{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 110%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: -100px;
+    left: -5%;
+    transform: rotate(-5deg);
+    overflow-x: hidden;
+}
+.main7in1{
+    width: 100%;
+    height: 400px;
+    background-color: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.main7in1 img{
+    color: black;
+    padding-top: 180px; 
+}
+.main7in1 img:hover{
+    cursor:pointer;
+}
+/* main7 ended */
+/* main8 started */
+.main8{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+.main8 h1{
+    font-size: 35px;
+    padding: 30px;
+    opacity: 0.8;
+    color: black;
+} 
+.main8 p{
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.9;
+    color: black;
+}
+.main8in1,.main8in2,.main8in3,.main8in4{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    /* border: 0.1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+}
+.main8in1:hover,.main8in2:hover,.main8in3:hover,.main8in4:hover{
+    box-shadow: 1px 10px 5px 5px grey;
+    border: none;
+    
+}
+.main8in1 h1,.main8in2 h1,.main8in3 h1,.main8in4 h1{
+    font-size: 25px;
+    MARGIN: 0;
+    padding: 15px;
+    color: black;
+}
+.main8in1 p,.main8in2 p,.main8in3 p,.main8in4 p{
+    color: black;
+    opacity: 0.8;
+    font-size: 15px;
+    /* padding-left: 15px; */
+
+}
+.main8in1{
+    top: 220px;
+    left: 20px;
+    
+}
+.main8in2{
+    top: 220px;
+    left: 380px;
+}
+.main8in3{
+    top: 220px;
+    left: 740px;
+}
+.main8in4{
+    top: 220px;
+    left: 1100px;
+}
+/* main8 ended */
+/* main9 started */
+.main9{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* margin-top: 40px; */
+}
+.main9 h1{
+    font-size: 35px;
+    padding: 30px;
+    opacity: 0.8;
+    color: black;
+} 
+.main9 p{
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.9;
+    color: black;
+}
+.main9in1,.main9in2,.main9in3{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.main9in1:hover,.main9in2:hover,.main9in3:hover{
+    box-shadow: 1px 10px 5px 5px grey;
+    border: none;
+    height: 500px;
+    background-color: aqua;
+}
+.main9in1 h1,.main9in2 h1,.main9in3 h1{
+    font-size: 30px;
+    MARGIN: 0;
+    padding: 30px;
+    color: black;
+}
+.main9in1 h2,.main9in2 h2,.main9in3 h2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.main9in1 p,.main9in2 p,.main9in3 p{
+    color: black;
+    opacity: 0.8;
+    font-size: 17px;
+    padding-top: 5px;
+}
+.main9in1 button,.main9in2 button,.main9in3 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: white;
+    color:black;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.main9in1 button:hover,.main9in2 button:hover,.main9in3 button:hover{
+    background-color: rgb(104, 104, 228);
+    color: white;
+    border: none;
+}
+.main9in1{
+    top: 220px;
+    left: 180px;
+}
+.main9in2{
+    top: 220px;
+    left: 525px;
+}
+.main9in3{
+    top: 220px;
+    right: 180px;
+}
+/* main9 ended */
+/* main10 started */
+.main10{
+    width: 100%;
+    height: 400px;
+    /* margin-top: 50px; */
+    background-color: darkcyan; 
+    position: relative;
+    overflow: hidden;
+    background-image: url('/lvl2no_1/4-dars/Part.Agency/images/letsGo-background.png');
+    /* backdrop-filter: blur(40px) saturate( 200%); */
+}
+.main10::before{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 800px;
+    background-color:  blue;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0.44;
+}
+.main10::after{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 110%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: -100px;
+    left: -5%;
+    transform: rotate(-5deg);
+    overflow-x: hidden;
+}
+.main10in1{
+    width: 100%;
+    height: 400px;
+    background-color: none;
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    text-align: center;
+}
+.main10in1 h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    position: absolute;
+    color: white;
+}
+.main10in1 p{
+    position: absolute;
+}
+.k1{
+    top: 120px;
+    left: 300px;
+}
+.k3{
+    top: 120px;
+    left: 550px;
+}
+.k5{
+    top: 120px;
+    left: 800px;
+}
+.k7{
+    top: 120px;
+    left: 1050px;
+}
+.k2{
+    top: 190px;
+    left: 280px;
+}
+.k4{
+    top: 190px;
+    left: 530px;
+}
+.k6{
+    top: 190px;
+    left: 790px;
+}
+.k8{
+    top: 190px;
+    left: 1050px;
+}
+/* main10 ended */
+/* main11 started */
+.main11{
+    width: 100%;
+    height: 580px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* margin-top: 40px; */
+}
+.main11 h1{
+    font-size: 35px;
+    padding: 30px;
+    opacity: 0.8;
+    color: black;
+} 
+.main11 p{
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.9;
+    color: black;
+}
+.main11in1{
+    width: 1000px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px grey;
+    top: 220px;
+    left: 190px;
+}
+.main11in1 h1{
+    font-size: 25px;
+    MARGIN: 0;
+    padding-top: 30px;
+    padding-bottom: 0;
+    color: black;
+}
+.main11in1 p{
+    color: black;
+    opacity: 0.8;
+    font-size: 17px;
+    padding: 20px 120px;
+}
+.main11in1 .main11d{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.fa-chevron-right,.fa-chevron-left{
+    padding: 30px;
+    color: black;
+    background-color: white;
+    position: absolute;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 50%;
+}
+.fa-chevron-right{
+    top: 130px;
+    left: -130px;
+}
+.fa-chevron-left{
+    top: 130px;
+    right: -130px;
+}
+/* main11 ended */
+/* main12 started */
+.main12{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    background-color: darkcyan; 
+    position: relative;
+    overflow: hidden;
+}
+.main12::before{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 800px;
+    background-color:  blue;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0.44;
+}
+.main12::after{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 110%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: -100px;
+    left: -5%;
+    transform: rotate(-5deg);
+    overflow-x: hidden;
+}
+.main12in1{
+    width: 100%;
+    height: 400px;
+    background-color: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.main12in1 h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    color: white;
+    padding-top: 200px;
+}
+
+.main12in1 button{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(104, 104, 228);
+    border-color: white;
+    color:white;
+    margin-top: 30px;
+}
+.main12in1 button:hover{
+    background-color: white;
+    color: rgb(104, 104, 228);
+    border: none;
+}
+/* main12 ended */
+/* main13 started */
+.main13{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+.main13 h1{
+    font-size: 35px;
+    padding: 30px;
+    opacity: 0.8;
+    color: black;
+} 
+.main13 p{
+    font-size: 20px;
+    padding: 5px;
+    opacity: 0.9;
+    color: black;
+}
+.main13in1,.main13in2,.main13in3{
+    width: 420px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+    /* border: 0.1px solid grey; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.main13in1 h1,.main13in2 h1,.main13in3 h1{
+    font-size: 25px;
+    MARGIN: 0;
+    padding: 15px;
+    color: black;
+}
+.main13in1 h1:hover,.main13in2 h1:hover,.main13in3 h1:hover{
+    color: blue;
+}
+.main13in1 p,.main13in2 p,.main13in3 p{
+    color: black;
+    opacity: 0.8;
+    font-size: 15px;
+    padding-left: 15px
+}
+.main13in1{
+    top: 220px;
+    left: 20px;
+}
+.main13in2{
+    top: 220px;
+    left: 480px;
+}
+.main13in3{
+    top: 220px;
+    left: 940px;
+}
+/* main13 ended */
+/* main14 started */
+.main14{
+    width: 100%;
+    height: 650px;
+    /* margin-top: 50px; */
+    background-color: darkcyan; 
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+}
+.main14::before{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    height: 800px;
+    background-color:  rgba(0, 0, 0, 0.945);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0.44;
+}
+.main14::after{
+    content: '';
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    width: 110%;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    top: -100px;
+    left: -10%;
+    transform: rotate(-5deg);
+    overflow-x: hidden;
+}
+.main14in1,.main14in2,.main14in3,.main14in4{
+    width:23.5%;
+    height: 300px;
+    color: white;
+}
+.main14 h1{
+    font-size: 25px;
+    padding: 15px 1px;
+    color: white;
+}
+.main14 ul li{
+    font-size: 20px;
+}
+.main14 ul li a{
+    font-size: 20px;
+    color:white;
+}
+.main14 p{
+    font-size: 20px;
+}
+.main14 .ul1 {
+    display: flex;
+}
+.main14 .ul1 li{
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.main14 .ul2{
+   padding-left: 50px;
+}
+.main14 .ul2 li{
+    padding-top: 10px;
+}
+.main14 .ul3 li {
+    padding-top: 15px;
+}
+.main14 .ul3 li a i{
+    padding-right: 20px;
+}
+.main14 .ul3 p{
+    padding-top: 15px;
+}
+.main14 .ul3 .button{
+    width: 270px;
+    height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 35px;
+    padding-left: 10px;
+}
+.main14 .ul3 .button input{
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    background-color: white;
+}
+.main14chiziq{
+    width: 60%;
+    height: 1px;
+    background-color: grey;
+    position: absolute;
+    top: 500px;
+    left: 280px
+}
+.mainfooter{
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    top: 550px;
+    left: 350px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.main5in1 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(104, 104, 228);
+    border-color: white;
+    color:white;
+    margin-top: 30px;
+}
+.main5in1 button:hover{
+    background-color: white;
+    color: rgb(104, 104, 228);
+    border: none;
+}
+
+
